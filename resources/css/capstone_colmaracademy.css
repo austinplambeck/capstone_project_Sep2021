@@ -6,6 +6,7 @@ body {
     margin-top: 0;
     padding-top: 0;
     margin-left: 0;
+    margin-right: 0;
 }
 
 html {
@@ -20,6 +21,7 @@ header {
     position: fixed;
     z-index: 100;
     width: 100%;
+    background-color: white;
 }
 
 header h3 a {
@@ -37,10 +39,6 @@ header h3 a {
 
 header .logo {
     flex: 1;
-}
-
-header img {
-    
 }
 
 .header-content h3{
@@ -65,8 +63,59 @@ nav li {
 }
 
 nav a {
-    vertical-align: bottom;
-    line-height: 3.6;
+    vertical-align: center;
     text-decoration: none;
     color: darkslategrey;
+}
+
+/* Introduction Section */
+
+.introduction
+{
+    position: relative;
+    top: 64px;
+    display: flex;
+    width: 100%;
+    background-color: rgb(212, 209, 209);
+}
+
+.introduction img {
+    margin-left: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    width: 60%;
+    align-content: center;
+}
+
+.introduction-content {
+    display: inline;
+    margin-left: 24px;
+}
+
+.introduction-content h1 {
+    font-size: 54px;
+}
+
+.introduction-content h2 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.button {
+    text-align: center;
+    color: white;
+    background-color: rgb(78, 66, 66);
+    z-index: 10;
+    padding: 10px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    border-radius: 4px;
+    width: 300px;
+    position: relative;
+    left: 15%;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
 }
