@@ -76,7 +76,9 @@ nav a {
     top: 64px;
     display: flex;
     width: 100%;
-    background-color: rgb(212, 209, 209);
+    background-color: rgb(212, 220, 228);
+    padding-bottom: 24px;
+    margin-bottom: 32px;
 }
 
 .introduction-desktop img {
@@ -114,4 +116,89 @@ button {
     position: relative;
     left: 15%;
     font-weight: bold;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+}
+
+/* Information Section */
+.information-desktop {
+    display: flex;
+    background-color: rgb(235, 241, 247);
+}
+
+.feature-article {
+    margin: 32px 24px;
+    width: 60%;
+}
+
+.feature-article img {
+    margin-top: 32px;
+    width: 100%;
+}
+
+.feature-article:hover {
+    background-color:rgb(212, 220, 228);
+}
+
+.other-info {
+    width: 40%;
+    margin-left: 16px;
+    margin-top: 32px;
+}
+
+.other-info img {
+    width: 35%;
+    height: auto;
+}
+
+.orientation-info {
+    display: flex;
+    margin-top: 32px;
+}
+
+.orientation-info-text {
+    width: 65%;
+    margin-left: 16px;
+}
+
+.orientation-info:hover {
+    background-color:rgb(212, 220, 228);
+}
+
+.ourcampus-info {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.ourcampus-info-text {
+    width: 65%;
+    margin-left: 16px;
+}
+
+.ourcampus-info:hover {
+    background-color:rgb(212, 220, 228);
+}
+
+.guestlecture-info {
+    display: flex;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.guestlecture-info-text {
+    width: 65%;
+    margin-left: 16px;
+}
+
+.guestlecture-info:hover {
+    background-color:rgb(212, 220, 228);
 }
