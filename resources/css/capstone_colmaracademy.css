@@ -70,7 +70,7 @@ nav a {
 
 /* Introduction Section */
 
-.introduction
+.introduction-desktop
 {
     position: relative;
     top: 64px;
@@ -79,7 +79,7 @@ nav a {
     background-color: rgb(212, 209, 209);
 }
 
-.introduction img {
+.introduction-desktop img {
     margin-left: 24px;
     margin-top: 32px;
     margin-bottom: 32px;
@@ -87,21 +87,21 @@ nav a {
     align-content: center;
 }
 
-.introduction-content {
+.introduction-desktop-content {
     display: inline;
     margin-left: 24px;
 }
 
-.introduction-content h1 {
+.introduction-desktop-content h1 {
     font-size: 54px;
 }
 
-.introduction-content h2 {
+.introduction-desktop-content h2 {
     font-size: 32px;
     font-weight: normal;
 }
 
-.button {
+button {
     text-align: center;
     color: white;
     background-color: rgb(78, 66, 66);
@@ -113,9 +113,5 @@ nav a {
     width: 300px;
     position: relative;
     left: 15%;
-}
-
-.button a {
-    text-decoration: none;
-    color: white;
+    font-weight: bold;
 }
