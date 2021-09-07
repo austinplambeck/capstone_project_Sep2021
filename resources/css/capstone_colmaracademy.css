@@ -202,3 +202,17 @@ button:hover {
 .guestlecture-info:hover {
     background-color:rgb(212, 220, 228);
 }
+
+/* CLASSES SECTION */
+
+.classes-desktop h1 {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+
+
+.classes-list {
+    display: flex;
+    flex-wrap: wrap;
+}
