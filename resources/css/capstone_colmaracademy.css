@@ -124,8 +124,8 @@ button a {
 }
 
 button:hover {
-    background-color: black;
-    color: white;
+    background-color: skyblue;
+    color: black;
 }
 
 /* Information Section */
@@ -205,14 +205,74 @@ button:hover {
 
 /* CLASSES SECTION */
 
-.classes-desktop h1 {
+#classes-title {
     text-align: center;
-    margin-top: 32px;
-    margin-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:rgb(212, 220, 228);
 }
 
-
-.classes-list {
+.classes-desktop {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-right: 72px;
+    padding-bottom: 32px;
+    justify-content: center;
+    background-color: rgb(212, 220, 228);
+}
+
+.classes-desktop img {
+    width: 360px;
+    height: auto;
+}
+
+.class-1 {
+    flex: 0 0 200px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    background-color: white;
+}
+
+.class-2 {
+    flex: 0 0 200px;
+    margin-right: 32px;
+    margin-bottom: 32px;
+    background-color: white;
+}
+
+.class-3 {
+    flex: 0 0 200px;
+    margin-bottom: 32px;
+    background-color: white;
+}
+
+.class-4 {
+    flex: 0 0 200px;
+    margin-right: 32px;
+    background-color: white;
+}
+
+.class-5 {
+    flex: 0 0 200px;
+    margin-right: 32px;
+    background-color: white;
+}
+
+.class-6 {
+    flex: 0 0 200px;
+    background-color: white;
+}
+
+.classes-desktop h3 {
+    margin-top: 16px;
+    margin-left: 16px;
+}
+
+.classes-desktop p {
+    margin-top: 8px;
+    margin-left: 16px;
+    margin-bottom: 24px;
 }
