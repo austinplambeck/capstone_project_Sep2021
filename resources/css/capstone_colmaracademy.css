@@ -14,7 +14,7 @@ html {
     padding-top: 0;
 }
 
-/* HEADER */
+/* ----------------------- HEADER ------------------------- */
 
 header {
     height: 64px;
@@ -68,7 +68,7 @@ nav a {
     color: darkslategrey;
 }
 
-/* Introduction Section */
+/* -------------------- Introduction Section ------------------------- */
 
 .introduction-desktop
 {
@@ -128,7 +128,8 @@ button:hover {
     color: black;
 }
 
-/* Information Section */
+/* ---------------------- Information Section --------------------------- */
+
 .information-desktop {
     display: flex;
     background-color: rgb(235, 241, 247);
@@ -137,6 +138,11 @@ button:hover {
 .feature-article {
     margin: 32px 24px;
     width: 60%;
+}
+
+.feature-article h1 a {
+    text-decoration: none;
+    color: black;
 }
 
 .feature-article img {
@@ -203,7 +209,7 @@ button:hover {
     background-color:rgb(212, 220, 228);
 }
 
-/* CLASSES SECTION */
+/*  ------------------------- CLASSES SECTION ---------------------------  */
 
 #classes-title {
     text-align: center;
@@ -275,4 +281,94 @@ button:hover {
     margin-top: 8px;
     margin-left: 16px;
     margin-bottom: 24px;
+}
+
+/* ----------------------- THESIS EXHIBIT ---------------------- */
+
+#thesis-title {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    background-color:rgb(235, 241, 247);
+}
+
+.thesis-desktop {
+    display: flex;
+    width: 100%;
+    background-color:rgb(235, 241, 247);
+    padding-left: 24px;
+    margin-right: 0;
+}
+
+.feature-video {
+    width: 60%;
+    margin-right: 24px;
+}
+
+.feature-video:hover {
+    background-color:rgb(212, 220, 228);
+}
+
+.feature-video video {
+    width: 100%;
+    height: auto;
+}
+
+.feature-video h2 {
+    margin-top: 24px;
+    margin-bottom: 8px;
+}
+
+.feature-video p {
+    margin-top: 0;
+    margin-bottom: 32px;
+}
+
+.other-thesis {
+    width: 40%;
+    margin-right: 0;
+}
+
+.other-thesis img {
+    width: 35%;
+    height: auto;
+    margin: 16px;
+}
+
+.other-thesis-1 {
+    display: flex;
+    width: 100%;
+    margin-right: 0;
+}
+
+.other-thesis-1:hover {
+    background-color:rgb(212, 220, 228);
+}
+
+.other-thesis-2 {
+    display: flex;
+    width: 100%;
+}
+
+.other-thesis-2:hover {
+    background-color:rgb(212, 220, 228);
+}
+
+.other-thesis-1-text {
+    display: block;
+    width: 65%;
+    padding-top: 30px;
+}
+
+.other-thesis-2-text {
+    display: block;
+    width: 65%;
+    padding-top: 30px;
+}
+
+.thesis-desktop a {
+    text-decoration: none;
+    color: black;
 }
