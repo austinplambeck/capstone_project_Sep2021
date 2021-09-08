@@ -7,6 +7,7 @@ body {
     padding-top: 0;
     margin-left: 0;
     margin-right: 0;
+    margin-bottom: 0;
 }
 
 html {
@@ -298,8 +299,7 @@ button:hover {
     display: flex;
     width: 100%;
     background-color:rgb(235, 241, 247);
-    padding-left: 24px;
-    margin-right: 0;
+    margin-left: 0;
 }
 
 .feature-video {
@@ -307,28 +307,28 @@ button:hover {
     margin-right: 24px;
 }
 
-.feature-video:hover {
-    background-color:rgb(212, 220, 228);
-}
-
 .feature-video video {
     width: 100%;
     height: auto;
+    margin-left: 24px;
 }
 
 .feature-video h2 {
     margin-top: 24px;
     margin-bottom: 8px;
+    margin-left: 24px;
 }
 
 .feature-video p {
     margin-top: 0;
     margin-bottom: 32px;
+    margin-left: 24px;
 }
 
 .other-thesis {
     width: 40%;
     margin-right: 0;
+    margin-left: 24px;
 }
 
 .other-thesis img {
@@ -371,4 +371,22 @@ button:hover {
 .thesis-desktop a {
     text-decoration: none;
     color: black;
+}
+
+/* ------------------------------ FOOTER --------------------------- */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-top: 16px;
+    padding-left: 24px;
+    padding-right: 16px;
+    padding-bottom: 8px;
+    background-color:rgb(235, 241, 247);
+    margin-right: 0px;
+}
+
+footer #terms-privacy {
+    word-spacing: 10px;
 }
