@@ -30,7 +30,7 @@ header h3 a {
     color: black;
 }
 
-.header-content {
+.header-content-desktop {
     display: flex;
     align-items: center;
     /* justify-content: space-between; */
@@ -42,7 +42,7 @@ header .logo {
     flex: 1;
 }
 
-.header-content h3{
+.header-content-desktop h3{
     font-weight: normal;
     font-size: 24px;
 }
@@ -69,11 +69,39 @@ nav a {
     color: darkslategrey;
 }
 
+.header-content-mobile {
+    display: none;
+}
 
 /* ---------------- MOBILE HEADER ---------------- */
 
 @media only screen and (max-width: 760px) {
+    header {
+        height: 64px;
+        position: fixed;
+        z-index: 100;
+        width: 100%;
+        background-color: white;
+        margin: 0px;
+    }
 
+    .header-content-desktop {
+        display: none;
+    }
+
+    .header-content-mobile {
+        display: flex;
+        width: 100%;
+        
+    }
+
+    nav .nav-mobile {
+        justify-content: space-between;
+    }
+
+    .nav-mobile li {
+        margin-right: 40px;
+    }
 }
 
 /* -------------------- Introduction Section ------------------------- */
