@@ -69,6 +69,13 @@ nav a {
     color: darkslategrey;
 }
 
+
+/* ---------------- MOBILE HEADER ---------------- */
+
+@media only screen and (max-width: 760px) {
+
+}
+
 /* -------------------- Introduction Section ------------------------- */
 
 .introduction-desktop
@@ -129,7 +136,12 @@ button:hover {
     color: black;
 }
 
-/* ---------------------- Information Section --------------------------- */
+/* ---------------- MOBILE INTRODUCTION ---------------- */
+@media only screen and (max-width: 760px) {
+
+}
+
+/* ---------------------- INFORMATION SECTION --------------------------- */
 
 .information-desktop {
     display: flex;
@@ -210,6 +222,13 @@ button:hover {
     background-color:rgb(212, 220, 228);
 }
 
+/* ---------------- MOBILE INFORMATION ---------------- */
+@media only screen and (max-width: 760px) {
+
+}
+
+
+
 /*  ------------------------- CLASSES SECTION ---------------------------  */
 
 #classes-title {
@@ -282,6 +301,11 @@ button:hover {
     margin-top: 8px;
     margin-left: 16px;
     margin-bottom: 24px;
+}
+
+/* ---------------- MOBILE CLASSES ---------------- */
+@media only screen and (max-width: 760px) {
+
 }
 
 /* ----------------------- THESIS EXHIBIT ---------------------- */
@@ -373,6 +397,11 @@ button:hover {
     color: black;
 }
 
+/* ---------------- MOBILE THESIS EXHIBIT ---------------- */
+@media only screen and (max-width: 760px) {
+
+}
+
 /* ------------------------------ FOOTER --------------------------- */
 
 footer {
@@ -389,4 +418,9 @@ footer {
 
 footer #terms-privacy {
     word-spacing: 10px;
+}
+
+/* ---------------- MOBILE FOOTER ---------------- */
+@media only screen and (max-width: 760px) {
+
 }
