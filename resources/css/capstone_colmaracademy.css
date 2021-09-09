@@ -75,7 +75,7 @@ nav a {
 
 /* ---------------- MOBILE HEADER ---------------- */
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 650px) {
     header {
         height: 64px;
         position: fixed;
@@ -85,27 +85,26 @@ nav a {
         margin: 0px;
     }
 
-    .header-content-desktop {
+    header .header-content-desktop {
         display: none;
     }
 
     .header-content-mobile {
         display: flex;
         width: 100%;
-        justify-content: space-evenly;
-        vertical-align: center;
         margin-top: 20px;
     }
 
-
-   /* nav .nav-mobile {
-        justify-content: space-between;
+    .mobile-img {
+        width: 25%;
     }
 
-    .nav-mobile li {
-        margin-right: 40px;
+    .mobile-img img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
     }
-    */
+}
 
 /* -------------------- Introduction Section ------------------------- */
 
@@ -168,9 +167,9 @@ button:hover {
 }
 
 /* ---------------- MOBILE INTRODUCTION ---------------- */
-@media only screen and (max-width: 760px) {
+/* @media only screen and (max-width: 760px) {
 
-}
+} */
 
 /* ---------------------- INFORMATION SECTION --------------------------- */
 
@@ -254,9 +253,9 @@ button:hover {
 }
 
 /* ---------------- MOBILE INFORMATION ---------------- */
-@media only screen and (max-width: 760px) {
+/* @media only screen and (max-width: 760px) {
 
-}
+} */
 
 
 
@@ -335,9 +334,9 @@ button:hover {
 }
 
 /* ---------------- MOBILE CLASSES ---------------- */
-@media only screen and (max-width: 760px) {
+/* @media only screen and (max-width: 760px) {
 
-}
+} */
 
 /* ----------------------- THESIS EXHIBIT ---------------------- */
 
@@ -429,9 +428,9 @@ button:hover {
 }
 
 /* ---------------- MOBILE THESIS EXHIBIT ---------------- */
-@media only screen and (max-width: 760px) {
+/* @media only screen and (max-width: 760px) {
 
-}
+} */
 
 /* ------------------------------ FOOTER --------------------------- */
 
@@ -452,6 +451,6 @@ footer #terms-privacy {
 }
 
 /* ---------------- MOBILE FOOTER ---------------- */
-@media only screen and (max-width: 760px) {
+/* @media only screen and (max-width: 760px) {
 
-}
+} */
