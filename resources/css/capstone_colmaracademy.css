@@ -92,7 +92,6 @@ nav a {
     .header-content-mobile {
         display: flex;
         width: 100%;
-        margin-top: 20px;
     }
 
     .mobile-img {
@@ -171,7 +170,7 @@ button:hover {
 }
 
 /* ---------------- MOBILE INTRODUCTION ---------------- */
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 650px) {
     .introduction-desktop {
         display: none;
     }
@@ -284,10 +283,54 @@ button:hover {
     background-color:rgb(212, 220, 228);
 }
 
-/* ---------------- MOBILE INFORMATION ---------------- */
-/* @media only screen and (max-width: 760px) {
+.information-mobile {
+    display: none;
+}
 
-} */
+/* ---------------- MOBILE INFORMATION ---------------- */
+@media only screen and (max-width: 650px) {
+    .information-desktop {
+        display: none;
+    }
+
+    .information-mobile {
+        display: block;
+        background-color:rgb(235, 241, 247);
+    }
+
+    .orientation-info-mobile {
+        display: block;
+        width: 100%;
+        padding-top: 16px;
+        margin-right: 16px;
+        margin-bottom: 64px;
+        margin-left: 16px;
+    }
+    
+    .ourcampus-info-mobile {
+        display: block;
+        width: 100%;
+        margin: 0px 16px 64px 16px;
+    }
+    
+    .guestlecture-info-mobile {
+        display: block;
+        width: 100%;
+        margin-top: 0px;
+        margin-right: 16px;
+        padding-bottom: 32px;
+        margin-left: 16px;
+    }
+    
+    .information-mobile h3, p, a {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+
+    .information-mobile img {
+        width: 93.5%;
+    }
+}
 
 
 
@@ -365,10 +408,43 @@ button:hover {
     margin-bottom: 24px;
 }
 
-/* ---------------- MOBILE CLASSES ---------------- */
-/* @media only screen and (max-width: 760px) {
+.classes-mobile {
+    display: none;
+}
 
-} */
+/* ---------------- MOBILE CLASSES ---------------- */
+@media only screen and (max-width: 650px) {
+    .classes-desktop, #classes-title {
+        display: none;
+    }
+
+    .classes-mobile {
+        background-color: rgb(235, 241, 247);
+        width: 100%;
+        display: block;
+        padding-bottom: 16px;
+    }
+
+    .classes-mobile h1 {
+        padding-top: 32px;
+        margin-top: 0px;
+        margin-bottom: 16px;
+        text-align: center;
+        background-color: rgb(235, 241, 247);
+    }
+
+    .classes-mobile h2 {
+        text-align: left;
+        padding: 16px 0px 16px 16px;
+        margin: 0px 16px 8px 16px;
+        background-color:rgb(212, 220, 228);
+    }
+
+    .classes-mobile a {
+        text-decoration: none;
+        color: black;
+    }
+}
 
 /* ----------------------- THESIS EXHIBIT ---------------------- */
 
@@ -459,10 +535,34 @@ button:hover {
     color: black;
 }
 
-/* ---------------- MOBILE THESIS EXHIBIT ---------------- */
-/* @media only screen and (max-width: 760px) {
+.thesis-mobile {
+    display: none;
+}
 
-} */
+/* ---------------- MOBILE THESIS EXHIBIT ---------------- */
+@media only screen and (max-width: 760px) {
+    .thesis-desktop, #thesis-title {
+        display: none;
+    }
+
+    .thesis-mobile {
+        display: block;
+        width: 100%;
+        background-color: rgb(235, 241, 247);
+    }
+
+    .thesis-mobile h1 {
+        padding-top: 32px;
+        padding-bottom: 16px;
+        margin-top: 0px;
+        text-align: center;
+    }
+
+    .thesis-mobile video {
+        width: 100%;
+        padding-bottom: 24px; 
+    }
+}
 
 /* ------------------------------ FOOTER --------------------------- */
 
@@ -483,6 +583,8 @@ footer #terms-privacy {
 }
 
 /* ---------------- MOBILE FOOTER ---------------- */
-/* @media only screen and (max-width: 760px) {
-
-} */
+@media only screen and (max-width: 760px) {
+    footer #terms-privacy {
+        display: none;
+    }
+}
