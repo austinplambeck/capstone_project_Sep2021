@@ -166,10 +166,42 @@ button:hover {
     color: black;
 }
 
-/* ---------------- MOBILE INTRODUCTION ---------------- */
-/* @media only screen and (max-width: 760px) {
+.introduction-mobile {
+    display: none;
+}
 
-} */
+/* ---------------- MOBILE INTRODUCTION ---------------- */
+@media only screen and (max-width: 760px) {
+    .introduction-desktop {
+        display: none;
+    }
+
+    .introduction-mobile {
+        width: 100%;
+        display: block;
+        background-color:rgb(212, 220, 228);
+    }
+
+    .introduction-mobile img {
+        width: 100%;
+    }
+
+    .introduction-mobile h1 {
+        margin-left: 16px;
+        margin-top: 32px;
+        margin-bottom: 32px;
+    }
+
+    .introduction-mobile h2 {
+        margin-bottom: 24px;
+        margin-left: 16px;
+    }
+
+    .introduction-mobile button {
+        margin-left: 16px;
+        margin-bottom: 32px;
+    }
+}
 
 /* ---------------------- INFORMATION SECTION --------------------------- */
 
